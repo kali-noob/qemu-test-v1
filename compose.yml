@@ -5,8 +5,8 @@ services:
     environment:
       BOOT: "https://cdimage.kali.org/kali-2025.2/kali-linux-2025.2-installer-amd64.iso"
       RAM_SIZE: "8G"
-      CPU_CORES: "8"
-      DISK_SIZE: "995G"
+      CPU_CORES: "4"
+      DISK_SIZE: "512G"
     devices:
       - /dev/kvm
       - /dev/net/tun
